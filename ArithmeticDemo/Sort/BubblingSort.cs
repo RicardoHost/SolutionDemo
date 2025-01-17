@@ -12,53 +12,22 @@ namespace ArithmeticDemo.Sort
     {
         public int[] sort(int[] arr)
         {
-            return sort1(arr);
-        }
-
-        /// <summary>
-        /// 基本实现
-        /// </summary>
-        /// <param name="arr"></param>
-        /// <returns></returns>
-        public int[] sort1(int[] arr)
-        {
-            for (int i = 0; i < arr.Length; i++)
+            if(arr is null|| arr.Length < 2)
             {
-                for (int j = i + 1; j < arr.Length; j++)
-                {
-                    if (arr[i] > arr[j])
-                    {
-                        ISort.swap(arr, i, j);
-                    }
-                }
+                return arr;
             }
-            return arr;
-        }
-
-        /// <summary>
-        /// 通过双指针优化每次比较效率
-        /// </summary>
-        /// <param name="arr"></param>
-        /// <returns></returns>
-        public int[] sort2(int[] arr)
-        {
             for (int i = 0; i < arr.Length; i++)
             {
-                var j = i + 1;
-                var k = arr.Length - 1;
-                while (j <= k)
+                var flag = false;
+                for (int j = 0; j < arr.Length - i - 1; j++)
                 {
-                    if (arr[i] > arr[j])
+                    if (arr[j] > arr[j + 1])
                     {
-                        ISort.swap(arr, i, j);
+                        flag = true;
+                        ISort.swap(arr, j, j + 1);
                     }
-                    if (arr[i] > arr[k])
-                    {
-                        ISort.swap(arr, i, k);
-                    }
-                    j++;
-                    k--;
                 }
+                if (!flag) break;
             }
             return arr;
         }
