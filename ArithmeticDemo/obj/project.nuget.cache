@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z3xbMG7F9no=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\SolutionDemo\\ArithmeticDemo\\ArithmeticDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "正在通过 “HTTP” 源“http://10.32.128.113:8066/nuget/Hysware/”运行“restore”操作。将来的版本中将删除非 HTTPS 访问权限。请考虑迁移到 “HTTPS” 源。"
+    }
+  ]
+}
