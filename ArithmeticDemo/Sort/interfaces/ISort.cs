@@ -2,10 +2,17 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ArithmeticDemo.interfaces
+namespace ArithmeticDemo.Sort.interfaces
 {
     public interface ISort
     {
-        int[] Sort(int[] arr);
+        int[] sort(int[] arr);
+
+        public static void swap(int[] arr,int i,int j)
+        {
+            var temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+        }
     }
 }

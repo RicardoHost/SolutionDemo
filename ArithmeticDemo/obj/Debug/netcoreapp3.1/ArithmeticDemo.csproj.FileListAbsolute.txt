@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\SolutionDemo\ArithmeticDemo\obj\Debug\netcoreapp3.1\ArithmeticDemo.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\SolutionDemo\ArithmeticDemo\obj\Debug\netcoreapp3.1\ArithmeticDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\SolutionDemo\ArithmeticDemo\obj\Debug\netcoreapp3.1\ArithmeticDemo.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\SolutionDemo\ArithmeticDemo\obj\Debug\netcoreapp3.1\ArithmeticDemo.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\SolutionDemo\ArithmeticDemo\obj\Debug\netcoreapp3.1\ArithmeticDemo.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\SolutionDemo\ArithmeticDemo\obj\Debug\netcoreapp3.1\ArithmeticDemo.sourcelink.json
+C:\Users\Administrator\source\repos\SolutionDemo\ArithmeticDemo\bin\Debug\netcoreapp3.1\ArithmeticDemo.exe
+C:\Users\Administrator\source\repos\SolutionDemo\ArithmeticDemo\bin\Debug\netcoreapp3.1\ArithmeticDemo.deps.json
+C:\Users\Administrator\source\repos\SolutionDemo\ArithmeticDemo\bin\Debug\netcoreapp3.1\ArithmeticDemo.runtimeconfig.json
+C:\Users\Administrator\source\repos\SolutionDemo\ArithmeticDemo\bin\Debug\netcoreapp3.1\ArithmeticDemo.runtimeconfig.dev.json
+C:\Users\Administrator\source\repos\SolutionDemo\ArithmeticDemo\bin\Debug\netcoreapp3.1\ArithmeticDemo.dll
+C:\Users\Administrator\source\repos\SolutionDemo\ArithmeticDemo\bin\Debug\netcoreapp3.1\ArithmeticDemo.pdb
+C:\Users\Administrator\source\repos\SolutionDemo\ArithmeticDemo\obj\Debug\netcoreapp3.1\ArithmeticDemo.dll
+C:\Users\Administrator\source\repos\SolutionDemo\ArithmeticDemo\obj\Debug\netcoreapp3.1\ArithmeticDemo.pdb
+C:\Users\Administrator\source\repos\SolutionDemo\ArithmeticDemo\obj\Debug\netcoreapp3.1\ArithmeticDemo.genruntimeconfig.cache
