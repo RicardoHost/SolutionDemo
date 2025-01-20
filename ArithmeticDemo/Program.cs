@@ -23,7 +23,7 @@ namespace Demo.Main
 
             //var start = DateTime.Now.Ticks;
             //arr = sort.sort(arr);
-            //var end = DateTime.Now.Ticks;
+            var end = DateTime.Now.Ticks;
             //Console.WriteLine(end - start);
             //Console.WriteLine(string.Join(",", arr));
         }
