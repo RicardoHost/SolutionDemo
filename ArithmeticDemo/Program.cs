@@ -6,7 +6,7 @@ using System.Collections.Specialized;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace OutputDemo
+namespace Demo.Main
 {
     class Program
     {

@@ -33,9 +33,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\SolutionDemo\\ArithmeticDemo\\OutputDemo.csproj",
-      "projectName": "OutputDemo",
-      "projectPath": "C:\\Users\\Administrator\\source\\repos\\SolutionDemo\\ArithmeticDemo\\OutputDemo.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\SolutionDemo\\ArithmeticDemo\\Demo.Main.csproj",
+      "projectName": "Demo.Main",
+      "projectPath": "C:\\Users\\Administrator\\source\\repos\\SolutionDemo\\ArithmeticDemo\\Demo.Main.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Administrator\\source\\repos\\SolutionDemo\\ArithmeticDemo\\obj\\",
       "projectStyle": "PackageReference",
