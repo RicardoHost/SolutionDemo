@@ -26,6 +26,7 @@ namespace Demo.Main
             var end = DateTime.Now.Ticks;
             Console.WriteLine(end - start);
             Console.WriteLine(string.Join(",", arr));
+            Console.WriteLine("1111");
         }
     }
 }
