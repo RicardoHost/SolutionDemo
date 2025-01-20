@@ -1,12 +1,12 @@
-﻿using ArithmeticDemo.Sort;
-using ArithmeticDemo.Sort.interfaces;
+﻿using Demo.Arithmetic.Sort;
+using Demo.Arithmetic.Sort.interfaces;
 using Microsoft.VisualBasic;
 using System;
 using System.Collections.Specialized;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ArithmeticDemo
+namespace OutputDemo
 {
     class Program
     {
@@ -18,10 +18,10 @@ namespace ArithmeticDemo
         public static void Sort()
         {
             var random = new Random();
-            var arr = Enumerable.Range(1, 10000).Select(it => random.Next(10000)).ToArray() ;
+            var arr = Enumerable.Range(1, 10000).Select(it => random.Next(10000)).ToArray();
             ISort sort = new InsertionSort();
-            
-            var start= DateTime.Now.Ticks;
+
+            var start = DateTime.Now.Ticks;
             arr = sort.sort(arr);
             var end = DateTime.Now.Ticks;
             Console.WriteLine(end - start);

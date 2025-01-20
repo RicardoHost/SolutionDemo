@@ -1,9 +1,9 @@
-﻿using ArithmeticDemo.Sort.interfaces;
+﻿using Demo.Arithmetic.Sort.interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ArithmeticDemo.Sort
+namespace Demo.Arithmetic.Sort
 {
     /// <summary>
     /// 插入排序

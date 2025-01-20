@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ArithmeticDemo.Sort.interfaces
+namespace Demo.Arithmetic.Sort.interfaces
 {
     public interface ISort
     {

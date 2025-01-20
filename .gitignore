@@ -1,1 +1,9 @@
 .vs
+
+#忽略bin文件
+bin/
+
+#忽略obj文件
+obj/
+
+*.user

@@ -1,0 +1,10 @@
+C:\Users\Administrator\source\repos\SolutionDemo\Demo.Arithmetic\bin\Debug\netcoreapp3.1\Demo.Arithmetic.deps.json
+C:\Users\Administrator\source\repos\SolutionDemo\Demo.Arithmetic\bin\Debug\netcoreapp3.1\Demo.Arithmetic.dll
+C:\Users\Administrator\source\repos\SolutionDemo\Demo.Arithmetic\bin\Debug\netcoreapp3.1\Demo.Arithmetic.pdb
+C:\Users\Administrator\source\repos\SolutionDemo\Demo.Arithmetic\obj\Debug\netcoreapp3.1\Demo.Arithmetic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\SolutionDemo\Demo.Arithmetic\obj\Debug\netcoreapp3.1\Demo.Arithmetic.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\SolutionDemo\Demo.Arithmetic\obj\Debug\netcoreapp3.1\Demo.Arithmetic.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\SolutionDemo\Demo.Arithmetic\obj\Debug\netcoreapp3.1\Demo.Arithmetic.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\SolutionDemo\Demo.Arithmetic\obj\Debug\netcoreapp3.1\Demo.Arithmetic.sourcelink.json
+C:\Users\Administrator\source\repos\SolutionDemo\Demo.Arithmetic\obj\Debug\netcoreapp3.1\Demo.Arithmetic.dll
+C:\Users\Administrator\source\repos\SolutionDemo\Demo.Arithmetic\obj\Debug\netcoreapp3.1\Demo.Arithmetic.pdb
