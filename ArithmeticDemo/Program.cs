@@ -22,10 +22,10 @@ namespace Demo.Main
             ISort sort = new InsertionSort();
 
             var start = DateTime.Now.Ticks;
-            //arr = sort.sort(arr);
+            arr = sort.sort(arr);
             var end = DateTime.Now.Ticks;
-            //Console.WriteLine(end - start);
-            //Console.WriteLine(string.Join(",", arr));
+            Console.WriteLine(end - start);
+            Console.WriteLine(string.Join(",", arr));
         }
     }
 }
