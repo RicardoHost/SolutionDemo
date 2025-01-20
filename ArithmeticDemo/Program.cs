@@ -21,11 +21,11 @@ namespace Demo.Main
             var arr = Enumerable.Range(1, 10000).Select(it => random.Next(10000)).ToArray();
             ISort sort = new InsertionSort();
 
-            var start = DateTime.Now.Ticks;
-            arr = sort.sort(arr);
-            var end = DateTime.Now.Ticks;
-            Console.WriteLine(end - start);
-            Console.WriteLine(string.Join(",", arr));
+            //var start = DateTime.Now.Ticks;
+            //arr = sort.sort(arr);
+            //var end = DateTime.Now.Ticks;
+            //Console.WriteLine(end - start);
+            //Console.WriteLine(string.Join(",", arr));
         }
     }
 }
