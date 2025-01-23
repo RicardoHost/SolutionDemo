@@ -8,7 +8,6 @@ namespace Demo.Identity
 {
     public class Config
     {
-
         public static IEnumerable<Client> GetClients()
         {
             return new List<Client>
@@ -28,11 +27,6 @@ namespace Demo.Identity
                     },
                 };
         }
-
-        /// <summary>
-        /// Api资源认证
-        /// </summary>
-        /// <returns></returns>
         public static IEnumerable<ApiResource> GetApis()
         {
             return new List<ApiResource>
