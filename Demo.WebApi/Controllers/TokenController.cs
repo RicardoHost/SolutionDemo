@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-﻿using Demo.Common.Constants.IdentityServerConstants;
-=======
-﻿using Demo.Common.Const;
->>>>>>> 758b0c67995a96bd2da3b19e43fabb53a8ffab8a
+using Demo.Common.Constants.IdentityServerConstants;
 using IdentityModel.Client;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -33,8 +29,8 @@ namespace Demo.WebApi.Controllers
             var token = await client.RequestClientCredentialsTokenAsync(new ClientCredentialsTokenRequest()
             {
                 Address = disco.TokenEndpoint,
-                ClientId = IdentityServerClientId.DEMO_WEBAPI,
-                ClientSecret = IdentityServerClientSecret.DEMO_WEBAPI,
+                ClientId = IdentityServerClientId.DEMO_MAIN,
+                ClientSecret = IdentityServerClientSecret.DEMO_MAIN,
                 Scope = IdentityServerResourceName.DEMO_WEBAPI
             });
             if (token.IsError)

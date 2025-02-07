@@ -4,6 +4,6 @@ namespace Demo.Common.Constants.IdentityServerConstants
 {
     public static class IdentityServerClientId
     {
-        public static string DEMO_WEBAPI = "Demo.WebApi";
+        public static string DEMO_MAIN = "DEMO_MAIN";
     }
 }

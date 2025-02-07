@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -9,6 +11,7 @@ namespace Demo.WebApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [Authorize("p1")]
     public class HelloWorldController : ControllerBase
     {
         private readonly ILogger<HelloWorldController> _logger;

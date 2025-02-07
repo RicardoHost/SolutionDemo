@@ -6,6 +6,6 @@ namespace Demo.Common.Constants.IdentityServerConstants
 {
     public class IdentityServerResourceDisplayName
     {
-        public static string DEMO_WEBAPI = "Demo.WebApi";
+        public static string DEMO_WEBAPI = "DEMO_WEBAPI";
     }
 }
