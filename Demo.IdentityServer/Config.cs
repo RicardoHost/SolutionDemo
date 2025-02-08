@@ -10,13 +10,20 @@ namespace Demo.IdentityServer
 {
     public static class Config
     {
+        public static IEnumerable<IdentityResource> IdentityResources =>
+            new List<IdentityResource>
+            {
+                new IdentityResources.OpenId(),
+                new IdentityResources.Profile(),
+            };
+
         public static IEnumerable<ApiScope> ApiScopes =>
             new ApiScope[]
             {
                 new ApiScope()
                 {
                     Name = IdentityServerResourceName.DEMO_WEBAPI,
-                    DisplayName=IdentityServerResourceName.DEMO_WEBAPI,
+                    DisplayName=IdentityServerResourceName.DEMO_WEBAPI
                 }
             };
 

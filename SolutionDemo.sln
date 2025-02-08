@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.10.34916.146
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.Arithmetic", "Demo.Arithmetic\Demo.Arithmetic.csproj", "{DDF2FCFD-8147-4CA6-BB35-53840ABD8BB5}"
 EndProject
@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.Common", "Demo.Common\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.WebApi", "Demo.WebApi\Demo.WebApi.csproj", "{0C4D3187-D90D-4DC7-9177-03B48C6E5208}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.IdentityServer", "Demo.IdentityServer\Demo.IdentityServer.csproj", "{D6EBFD69-3AAA-4899-94E2-919CCBF927FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.IdentityServer", "Demo.IdentityServer\Demo.IdentityServer.csproj", "{D6EBFD69-3AAA-4899-94E2-919CCBF927FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

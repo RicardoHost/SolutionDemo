@@ -8,6 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.IdentityModel.Logging;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
@@ -42,23 +43,22 @@ namespace Demo.WebApi
                 });
             });
 
-            
-            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-                .AddJwtBearer(options =>
-                {
-                    options.Authority = "http://localhost:6001";
-                    options.RequireHttpsMetadata = false;
-                    options.Audience = IdentityServerResourceName.DEMO_WEBAPI;
-                    options.TokenValidationParameters.ValidateAudience = true;
-                });
-            services.AddAuthorization(options =>
+            services.AddAuthentication(options =>
             {
-                options.AddPolicy("p1", policy =>
-                {
-                    policy.RequireAuthenticatedUser();
-                    policy.RequireClaim("scope", IdentityServerResourceName.DEMO_WEBAPI);
-                });
+                options.DefaultScheme = "Cookies";
+                options.DefaultChallengeScheme = "oidc";
+            })
+            .AddCookie("Cookies")
+            .AddOpenIdConnect("oidc", options =>
+            {
+                options.Authority = "http://localhost:6001";
+                options.RequireHttpsMetadata = false;
+                options.ClientId = IdentityServerClientId.DEMO_MAIN;
+                options.ClientSecret = IdentityServerClientSecret.DEMO_MAIN;
+                options.ResponseType = "client_credentials";
+                options.SaveTokens = true;
             });
+
             services.AddControllers();
         }
 

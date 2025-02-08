@@ -11,7 +11,7 @@ namespace Demo.WebApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    [Authorize("p1")]
+    [Authorize]
     public class HelloWorldController : ControllerBase
     {
         private readonly ILogger<HelloWorldController> _logger;
