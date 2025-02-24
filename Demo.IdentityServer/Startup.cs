@@ -28,8 +28,8 @@ namespace Demo.IdentityServer
             {
                 // see https://identityserver4.readthedocs.io/en/latest/topics/resources.html
                 options.EmitStaticAudienceClaim = true;
-                options.UserInteraction.LoginUrl = "/path/to/login";
-                options.UserInteraction.ErrorUrl = "/111";
+                options.UserInteraction.LoginUrl = "http://localhost:3106/#/login";
+                options.UserInteraction.ErrorUrl = "http://localhost:3106/#/login";
             })
             .AddInMemoryIdentityResources(Config.IdentityResources)
             .AddInMemoryApiScopes(Config.ApiScopes)

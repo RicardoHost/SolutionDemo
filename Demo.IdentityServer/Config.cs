@@ -48,7 +48,8 @@ namespace Demo.IdentityServer
                     AccessTokenLifetime = 60,
                     AllowedGrantTypes = GrantTypes.ClientCredentials,
                     AllowOfflineAccess = false,
-                    AllowedScopes={ IdentityServerResourceName.DEMO_WEBAPI }
+                    AllowedScopes={ IdentityServerResourceName.DEMO_WEBAPI },
+                    RedirectUris=new List<string>(){ "http://localhost:3106/#/login" }
                 }
             };
     }
