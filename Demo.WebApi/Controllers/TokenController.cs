@@ -1,6 +1,5 @@
 using Demo.Common.Constants.IdentityServerConstants;
-using IdentityModel.Client;
-using Microsoft.AspNetCore.Http;
+using Duende.IdentityModel.Client;
 using Microsoft.AspNetCore.Mvc;
 using System.Net.Http;
 using System.Threading.Tasks;
