@@ -1,0 +1,19 @@
+﻿@page "/"
+@using Model.Account;
+@using Microsoft.AspNetCore.Components.Authorization;
+
+<PageTitle>Home</PageTitle>
+<h1>Hello, world! @UserName </h1>
+<AuthorizeRouteView></AuthorizeRouteView>
+@foreach (var person in people)
+{
+    <p>Name: @person.name</p>
+    <p>Age: @person.age</p>
+    <p>Sex: @(person.sex == 0 ? "男" : "女")</p>
+}
+
+@code {
+    string UserName = "hy";
+    User[] people = User.CreateExample();
+}
+Welcome to your new app.
