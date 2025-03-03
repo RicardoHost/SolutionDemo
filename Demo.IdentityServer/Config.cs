@@ -3,7 +3,7 @@
 
 
 using Demo.Common.Constants.IdentityServerConstants;
-using IdentityServer4.Models;
+using Duende.IdentityServer.Models;
 using System.Collections.Generic;
 
 namespace Demo.IdentityServer
@@ -49,7 +49,7 @@ namespace Demo.IdentityServer
                     AllowedGrantTypes = GrantTypes.ClientCredentials,
                     AllowOfflineAccess = false,
                     AllowedScopes={ IdentityServerResourceName.DEMO_WEBAPI },
-                    RedirectUris=new List<string>(){ "http://localhost:3106/#/login" }
+                    RedirectUris=new List<string>(){ "https://localhost:5001/signin-oidc" }
                 }
             };
     }

@@ -43,19 +43,15 @@ namespace Demo.WebApi
                 });
             });
 
-            services.AddAuthentication(options =>
+            services.AddAuthentication()
+                .AddOpenIdConnect("oidc", options =>
             {
-                options.DefaultScheme = "Cookies";
-                options.DefaultChallengeScheme = "oidc";
-            })
-            .AddCookie("Cookies")
-            .AddOpenIdConnect("oidc", options =>
-            {
-                options.Authority = "http://localhost:6001";
-                options.RequireHttpsMetadata = false;
+                options.Authority = "https://localhost:5001/";
+                options.RequireHttpsMetadata = true;
+
                 options.ClientId = IdentityServerClientId.DEMO_MAIN;
                 options.ClientSecret = IdentityServerClientSecret.DEMO_MAIN;
-                options.ResponseType = "client_credentials";
+                options.ResponseType = "token";
                 options.SaveTokens = true;
             });
 
