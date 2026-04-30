@@ -1,0 +1,362 @@
+﻿{
+  "page": 4,
+  "vat_result": {
+    "words_result": {
+      "PurchaserAddress": "",
+      "PurchaserBank": "",
+      "Password": "",
+      "CommodityVehicleType": [],
+      "SellerRegisterNum": "91510106050062015W",
+      "SellerBank": "",
+      "CommodityNum": [
+        {
+          "row": "2",
+          "word": "10.24"
+        },
+        {
+          "row": "4",
+          "word": "15.384"
+        },
+        {
+          "row": "6",
+          "word": "7.725"
+        },
+        {
+          "row": "8",
+          "word": "30.24"
+        },
+        {
+          "row": "10",
+          "word": "5.114"
+        },
+        {
+          "row": "12",
+          "word": "7.68"
+        },
+        {
+          "row": "14",
+          "word": "23.004"
+        }
+      ],
+      "CommodityAmount": [
+        {
+          "row": "2",
+          "word": "30085.66"
+        },
+        {
+          "row": "4",
+          "word": "42203.89"
+        },
+        {
+          "row": "6",
+          "word": "21055.75"
+        },
+        {
+          "row": "8",
+          "word": "86973.45"
+        },
+        {
+          "row": "10",
+          "word": "14301.10"
+        },
+        {
+          "row": "12",
+          "word": "21340.88"
+        },
+        {
+          "row": "14",
+          "word": "68604.85"
+        }
+      ],
+      "InvoiceType": "电子发票(专用发票)",
+      "AmountInWords": "柒佰叁拾捌万柒仟叁佰贰拾柒圆陆角玖分",
+      "TotalTax": "849869.60",
+      "MachineCode": "",
+      "City": "",
+      "InvoiceNumDigit": "",
+      "Checker": "",
+      "InvoiceCode": "",
+      "SellerAddress": "",
+      "CommodityPrice": [
+        {
+          "row": "2",
+          "word": "2938.0530973451328"
+        },
+        {
+          "row": "4",
+          "word": "2743.362831858407"
+        },
+        {
+          "row": "6",
+          "word": "2725.663716814159"
+        },
+        {
+          "row": "8",
+          "word": "2876.1061946902655"
+        },
+        {
+          "row": "10",
+          "word": "2796.4601769911505"
+        },
+        {
+          "row": "12",
+          "word": "2778.761061946903"
+        },
+        {
+          "row": "14",
+          "word": "2982.3008849557523"
+        }
+      ],
+      "NoteDrawer": "赵艳红",
+      "Province": "",
+      "InvoiceNum": "25512000000289128032",
+      "CommodityTaxRate": [
+        {
+          "row": "2",
+          "word": "13%"
+        },
+        {
+          "row": "4",
+          "word": "13%"
+        },
+        {
+          "row": "6",
+          "word": "13%"
+        },
+        {
+          "row": "8",
+          "word": "13%"
+        },
+        {
+          "row": "10",
+          "word": "13%"
+        },
+        {
+          "row": "12",
+          "word": "13%"
+        },
+        {
+          "row": "14",
+          "word": "13%"
+        }
+      ],
+      "ServiceType": "其他",
+      "InvoiceDate": "2025年11月28日",
+      "CommodityEndDate": [],
+      "PurchaserRegisterNum": "91510105MA6DDW761G",
+      "CommodityStartDate": [],
+      "TotalAmount": "6537458.09",
+      "SheetNum": "",
+      "CommodityPlateNum": [],
+      "PurchaserName": "四川省商投建筑工程有限责任公司",
+      "SellerName": "中铁物贸集团有限公司成都分公司",
+      "InvoiceNumConfirm": "25512000000289128032",
+      "Agent": "否",
+      "InvoiceTag": "其他",
+      "CommodityUnit": [
+        {
+          "row": "2",
+          "word": "吨"
+        },
+        {
+          "row": "4",
+          "word": "吨"
+        },
+        {
+          "row": "6",
+          "word": "吨"
+        },
+        {
+          "row": "8",
+          "word": "吨"
+        },
+        {
+          "row": "10",
+          "word": "吨"
+        },
+        {
+          "row": "12",
+          "word": "吨"
+        },
+        {
+          "row": "14",
+          "word": "吨"
+        }
+      ],
+      "CheckCode": "",
+      "InvoiceTypeOrg": "电子发票(增值税专用发票)",
+      "Remarks": "项目名称:达州市中医药产业示范基地;项目地址:达州市通川区西南职教园区",
+      "Payee": "",
+      "CommodityTax": [
+        {
+          "row": "2",
+          "word": "3911.14"
+        },
+        {
+          "row": "4",
+          "word": "5486.51"
+        },
+        {
+          "row": "6",
+          "word": "2737.25"
+        },
+        {
+          "row": "8",
+          "word": "11306.55"
+        },
+        {
+          "row": "10",
+          "word": "1859.14"
+        },
+        {
+          "row": "12",
+          "word": "2774.32"
+        },
+        {
+          "row": "14",
+          "word": "8918.63"
+        }
+      ],
+      "AmountInFiguers": "7387327.69",
+      "CommodityName": [
+        {
+          "row": "1",
+          "word": "纹钢"
+        },
+        {
+          "row": "2",
+          "word": "*黑色金属冶炼压延品*螺"
+        },
+        {
+          "row": "3",
+          "word": "纹钢"
+        },
+        {
+          "row": "4",
+          "word": "*黑色金属冶炼压延品*螺"
+        },
+        {
+          "row": "5",
+          "word": "纹钢"
+        },
+        {
+          "row": "6",
+          "word": "*黑色金属冶炼压延品*螺"
+        },
+        {
+          "row": "7",
+          "word": "纹钢"
+        },
+        {
+          "row": "8",
+          "word": "*黑色金属冶炼压延品*螺"
+        },
+        {
+          "row": "9",
+          "word": "纹钢"
+        },
+        {
+          "row": "10",
+          "word": "*黑色金属冶炼压延品*螺"
+        },
+        {
+          "row": "11",
+          "word": "纹钢"
+        },
+        {
+          "row": "12",
+          "word": "*黑色金属冶炼压延品*螺"
+        },
+        {
+          "row": "13",
+          "word": "纹钢"
+        },
+        {
+          "row": "14",
+          "word": "*黑色金属冶炼压延品*螺"
+        },
+        {
+          "row": "15",
+          "word": "纹钢"
+        }
+      ],
+      "CommodityType": [
+        {
+          "row": "1",
+          "word": "18mm"
+        },
+        {
+          "row": "2",
+          "word": "热轧HRB500E"
+        },
+        {
+          "row": "3",
+          "word": "16mm"
+        },
+        {
+          "row": "4",
+          "word": "热轧HRB400E"
+        },
+        {
+          "row": "5",
+          "word": "25mm"
+        },
+        {
+          "row": "6",
+          "word": "热轧HRB400E"
+        },
+        {
+          "row": "7",
+          "word": "22mm"
+        },
+        {
+          "row": "8",
+          "word": "热轧HRB500E"
+        },
+        {
+          "row": "9",
+          "word": "18mm"
+        },
+        {
+          "row": "10",
+          "word": "热轧HRB400E"
+        },
+        {
+          "row": "11",
+          "word": "12mm"
+        },
+        {
+          "row": "12",
+          "word": "热轧HRB400E"
+        },
+        {
+          "row": "13",
+          "word": "16mm"
+        },
+        {
+          "row": "14",
+          "word": "热轧HRB500E"
+        },
+        {
+          "row": "15",
+          "word": "20mm"
+        }
+      ],
+      "OnlinePay": "",
+      "PassengerName": [],
+      "PassengerIdNum": [],
+      "PassengerDate": [],
+      "PassengerDeparture": [],
+      "PassengerArrival": [],
+      "PassengerClass": [],
+      "PassengerVehicleType": [],
+      "TransportType": [],
+      "TransportPlateNum": [],
+      "TransportDeparture": [],
+      "TransportArrival": [],
+      "TransportCargoInfo": []
+    },
+    "words_result_num": 61,
+    "log_id": 2019255512809025934
+  }
+}
